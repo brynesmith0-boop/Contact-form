@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-info">
+            <h1>Get in Touch</h1>
+            <p class="subtitle">I'd like to hear from you!</p>
+            <p class="description">If you have any inquiries or just want to say hi, please use the contact form!</p>
+            
+            <div class="email-link">
+                <i class="fa-regular fa-envelope"></i>
+                <a href="mailto:brynesmith0@gmail.com">brynesmith0@gmail.com</a>
+            </div>
+
+            <div class="social-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-behance"></i>
+                <i class="fa-brands fa-vimeo-v"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+
+        <form class="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" name="firstname">
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" name="lastname">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label>Email *</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea name="message" rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="send-btn">Send</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
